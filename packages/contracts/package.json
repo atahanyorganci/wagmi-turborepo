@@ -1,0 +1,23 @@
+{
+  "name": "@repo/contracts",
+  "private": true,
+  "license": "proprietary",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./contracts.ts",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "wagmi generate"
+  },
+  "dependencies": {
+    "@wagmi/core": "2.13.4",
+    "viem": "2.19.4",
+    "wagmi": "2.12.5"
+  },
+  "devDependencies": {
+    "@wagmi/cli": "2.0.3",
+    "typescript": "^5"
+  }
+}
